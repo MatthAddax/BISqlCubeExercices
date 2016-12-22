@@ -7,18 +7,18 @@
           <ConfigurationSetting>
             <Id>1617 Etu29183 DB</Id>
             <Name>1617 Etu29183 DB</Name>
-            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYOMEq2kEQkO0CJFbEmIlbgAAAAAiAAAAMQA2ADEANwAgAEUAdAB1ADIAOQAxADgAMwAgAEQAQgAAAANmAADAAAAAEAAAAO/nS8fVr7Cm61gV7NCswuwAAAAABIAAAKAAAAAQAAAADdZ8jRUtFo7mydQHJm0UiCAAAAAjFxe1wKf8uogNBtN94D1ZYOjycnH2A+MDCt9DOgHQ0xQAAACrQzWh3o/YvD67vJ7esqbZZVTt3w==</Value>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYOMEq2kEQkO0CJFbEmIlbgAAAAAiAAAAMQA2ADEANwAgAEUAdAB1ADIAOQAxADgAMwAgAEQAQgAAAANmAADAAAAAEAAAAOq1Gqp0V7qw295S5hkukGIAAAAABIAAAKAAAAAQAAAAUXDZbqTPGJQGaR9XCeR89SAAAAA0mg7FEr+BRJj0Oe/hermws+o9wiiIjNqJxnFI7ISPfhQAAACHgT0L5UP5IFAUh2tHZO+YCxBqqA==</Value>
           </ConfigurationSetting>
         </UserIDs>
         <UserPasswords>
           <ConfigurationSetting>
             <Id>1617 Etu29183 DB</Id>
             <Name>1617 Etu29183 DB</Name>
-            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYOMEq2kEQkO0CJFbEmIlbgAAAAAiAAAAMQA2ADEANwAgAEUAdAB1ADIAOQAxADgAMwAgAEQAQgAAAANmAADAAAAAEAAAAIlbJLFl5/2vHoV0GZ9FKg8AAAAABIAAAKAAAAAQAAAAp918A+Rfo8N/5xrWbD/OgBgAAAA49fR5CPIYvO648sJSV2x20QXlVAHfHO4UAAAANUlnJmZp2dsaZnfviEfrBwHAuTE=</Value>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYOMEq2kEQkO0CJFbEmIlbgAAAAAiAAAAMQA2ADEANwAgAEUAdAB1ADIAOQAxADgAMwAgAEQAQgAAAANmAADAAAAAEAAAAPm0sp5AgZzhGo9p9XoJXRYAAAAABIAAAKAAAAAQAAAAPKKiq6oKrKHiWhLQceNxxRgAAACt92TKIL8IeqA0nSnQWUf2OK4rZ7dOCsYUAAAAdWnye24alMTrJzPNToqfKCgQ9ck=</Value>
           </ConfigurationSetting>
         </UserPasswords>
         <TargetServer>localhost\BD3ig2016</TargetServer>
-        <TargetDatabase>BD3ig2016</TargetDatabase>
+        <TargetDatabase>BD3ig2016_bis</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
           <ObjectType>Current</ObjectType>
