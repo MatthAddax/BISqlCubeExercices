@@ -380,11 +380,11 @@ Then 0
 Else 1   
 End</Status>
       <Trend>Case    
-When IsEmpty(ParallelPeriod([Dim Date].[Year],1,[Dim Date].CurrentMember))     
+When IsEmpty(ParallelPeriod([Dim Date].[Hierarchy].[Year],1,[Dim Date].[Hierarchy].CurrentMember))     
 Then 0
-When(KpiValue("Rentabilite") - (KpiValue("Rentabilite"),ParallelPeriod([Dim Date].[Year],1,[Dim Date].CurrentMember))/(KpiValue ("Rentabilite"),ParallelPeriod([Dim Date].[Year],1,[Dim Date].CurrentMember))) &gt;.02
+When(KpiValue("Rentabilite") - (KpiValue("Rentabilite"),ParallelPeriod([Dim Date].[Hierarchy].[Year],1,[Dim Date].[Hierarchy].CurrentMember))/(KpiValue ("Rentabilite"),ParallelPeriod([Dim Date].[Hierarchy].[Year],1,[Dim Date].[Hierarchy].CurrentMember))) &gt;.02
 Then 1
-When(KpiValue("Rentabilite") - (KpiValue("Rentabilite"),ParallelPeriod([Dim Date].[Year],1,[Dim Date].CurrentMember))/(KpiValue("Rentabilite"),ParallelPeriod([Dim Date].[Year],1,[Dim Date].CurrentMember))) &lt;.02     
+When(KpiValue("Rentabilite") - (KpiValue("Rentabilite"),ParallelPeriod([Dim Date].[Hierarchy].[Year],1,[Dim Date].[Hierarchy].CurrentMember))/(KpiValue("Rentabilite"),ParallelPeriod([Dim Date].[Hierarchy].[Year],1,[Dim Date].[Hierarchy].CurrentMember))) &lt;.02     
 Then 0
 Else -1   
 End</Trend>
